@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>РЕГИСТРАЦИЯ</title>
+  </head>
+  <body>
+    <div class="sign sign-up">
+      <h1 class="sign-up__title sign__title">РЕГИСТРАЦИЯ</h1>
+      <div class="sign-up__box sign__box">
+        <form class="sign-up__form sign__form">
+          <h2>Добро пожаловать</h2>
+          <input
+            type="text"
+            class="form__input"
+            placeholder="Укажите логин вашего пригласителя"
+            required
+          />
+
+          <div class="select-wrap">
+            <select id="select" class="form__select" required>
+              <option disabled selected value="">
+                Выберите место в структуре
+              </option>
+              <option value="1">Value 1</option>
+              <option value="2">Value 2</option>
+            </select>
+          </div>
+
+          <input
+            type="text"
+            class="form__input"
+            placeholder="Укажите ваш логин"
+            required
+          />
+          <input
+            type="email"
+            class="form__input"
+            placeholder="Укажите вашу почту"
+            required
+          />
+          <input
+            type="password"
+            class="form__input"
+            placeholder="Придумайте пароль"
+            required
+          />
+          <input type="text" class="form__input" placeholder="Ваше имя" />
+          <div class="input-placeholder">
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Вас пригласил:"
+              required
+            />
+            <span>Alexinka</span>
+          </div>
+
+          <button class="form__btn">РЕГИСТРАЦИЯ</button>
+          <a href="sign-in.html" class="sing-in__btn">ВХОД</a>
+        </form>
+
+        <div class="box__right">
+          <h2>Вы уже зарегистрированы?</h2>
+          <div class="box__right_links">
+            <a href="#">Войти</a>
+            <a href="#">Сбросить пароль</a>
+            <div class="support">
+              <a href="#">Наш чат</a><a href="#">Поддержка</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
